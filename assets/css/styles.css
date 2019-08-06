@@ -5,9 +5,8 @@
 }
 
 .h1{
-    background-color: #4aaaa5;
-    color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
 }
 
 h2{
@@ -29,4 +28,25 @@ h2{
     color: white;
     font-size: 10px;
     border-top: 10px solid #4aaaa5;
+}
+
+.bb-2{
+    border-bottom: 2px solid !important;
+}
+
+.bb-3{
+    border-bottom: 3px solid !important;
+}
+
+.bb-color{
+    border-bottom-color: #cccccc !important;
+}
+
+.brandColorPrimary{
+    background-color: #4aaaa5;
+    color:white;
+}
+
+.brandColorBorder{
+    border-color: #cccccc;
 }
