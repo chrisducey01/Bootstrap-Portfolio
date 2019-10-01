@@ -50,3 +50,7 @@ h2{
 .brandColorBorder{
     border-color: #cccccc;
 }
+
+.card, .card-img-top{
+    height: 100%;
+}
