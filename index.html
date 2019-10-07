@@ -6,31 +6,54 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik|Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <meta name="viewport" content="width-device-width, initial-scale=1">
 </head>
 
 <body>
-    <div class="container-fluid bg-white border-bottom bb-2 bb-color mb-0 pb-0">
-        <div class="row">
-            <div class="col-12 col-lg-5 col-xl-3 mb-0 ml-0 pl-3 py-2 h1 brandColorPrimary text-center">
-                <h1>Christopher Ducey</h1>
+    <div id="home" class="container-fluid p-0">
+        <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <button
+                    class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger"
+                                href="#home">Home</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger"
+                                href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger" href="#about">About</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-12 col-lg-7 col-xl-9">
-                <ul class="nav justify-content-center justify-content-lg-end align-middle py-3 mr-lg-5">
-                    <li class="nav-item">
-                        <a class="nav-link contentText" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link contentText" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link contentText" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+        </nav>
+
+        <div id="header" class="d-flex flex-column justify-content-center align-items-center text-white p-0 m-0">
+            <h1>Meet Christopher Ducey</h1>
+            <h5 class="mb-3">Full stack web developer looking for new opportunities to join a fun, energetic team.</h5>
+            <div>
+                <a href="https://github.com/chrisducey01" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/christopher-ducey-56729662/" target="_blank"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
             </div>
         </div>
     </div>
+
     <div id="mainContent">
         <div class="container m-4 bg-white">
             <div class="row">
@@ -86,6 +109,18 @@
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a6d854abd1.js" crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>
