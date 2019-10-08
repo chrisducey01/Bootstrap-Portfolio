@@ -2,13 +2,17 @@
 <html>
 
 <head>
-    <title>About Me</title>
+    <title>Christopher Ducey</title>
+
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <meta charset="utf8">
+
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rubik|Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <meta name="viewport" content="width-device-width, initial-scale=1">
+
 </head>
 
 <body>
@@ -25,15 +29,14 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger"
-                                href="#home">Home</a>
+                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger" href="#about">About</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger"
                                 href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item mx-0 mx-lg-1">
-                            <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger" href="#about">About</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1">
                             <a class="nav-link py-1 px-0 px-lg-1 rounded js-scroll-trigger" href="#contact">Contact</a>
@@ -43,72 +46,100 @@
             </div>
         </nav>
 
-        <div id="header" class="d-flex flex-column justify-content-center align-items-center text-white p-0 m-0">
+        <div id="header" class="row d-flex flex-column justify-content-center align-items-center p-0 m-0">
             <h1>Meet Christopher Ducey</h1>
-            <h5 class="mb-3">Full stack web developer looking for new opportunities to join a fun, energetic team.</h5>
+            <h5 class="mb-3">Full stack web developer looking for new opportunities to join a fun, energetic team. Firm
+                belief in building a better UI driven by a customer focused design. Scroll on to find out more about me
+                and see some of my work.</h5>
             <div>
                 <a href="https://github.com/chrisducey01" target="_blank"><i class="fab fa-github fa-2x"></i></a>
                 <a href="https://www.linkedin.com/in/christopher-ducey-56729662/" target="_blank"><i
                         class="fab fa-linkedin fa-2x"></i></a>
             </div>
         </div>
+
+        <div class="portfolio row m-0">
+            <h2 class="pl-3 pt-3">Portfolio</h2>
+        </div>
+
+        <div id="portfolio" class="portfolio row m-0 d-flex justify-content-center">
+            <div class="col-12 col-lg-3 m-3 p-0">
+                <div class="card border-0" data-toggle="modal" data-target="#modal-01">
+                    <img class="card-body p-0 m-0" src="assets/images/word_guess.jpg" alt="Word Guess Game">
+                    <div class="overlay">
+                        <i class="fas fa-plus-circle"></i>
+                        <p>Word Guess Game</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 m-3 p-0">
+                <div class="card border-0" data-toggle="modal" data-target="#modal-02">
+                    <img class="card-body p-0 m-0" src="assets/images/giphy.jpg" alt="GifTastic">
+                    <div class="overlay">
+                        <i class="fas fa-plus-circle"></i>
+                        <p>GifTastic</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 m-3 p-0">
+                <div class="card border-0" data-toggle="modal" data-target="#modal-03">
+                    <img class="card-body p-0 m-0" src="assets/images/trivia.jpg" alt="Trivia Game">
+                    <div class="overlay">
+                        <i class="fas fa-plus-circle"></i>
+                        <p>Trivia Game</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-3 m-3 p-0">
+                    <div class="card border-0" data-toggle="modal" data-target="#modal-04">
+                        <img class="card-body p-0 m-0" src="assets/images/crystal.jpg" alt="Crystal Collector">
+                        <div class="overlay">
+                            <i class="fas fa-plus-circle"></i>
+                            <p>Crystal Collector Game</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-lg-3 m-3 p-0">
+                        <div class="card border-0" data-toggle="modal" data-target="#modal-05">
+                            <img class="card-body p-0 m-0" src="assets/images/map.jpg"
+                            alt="Trova Vada">
+                            <div class="overlay">
+                                <i class="fas fa-plus-circle"></i>
+                                <p>Trova Vada</p>
+                            </div>
+                        </div>
+                    </div>
+    
+
+        </div>
+
+        <div class="modal fade" id="modal-01" tabindex="-1" role="dialog" aria-labelledby="modalLabel-01"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-center" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalLabel-01">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <div id="mainContent">
-        <div class="container m-4 bg-white">
-            <div class="row">
-                <div class="col">
-                    <h2 class="border-bottom bb-3 bb-color mx-4 py-4">About Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col mx-4 py-4">
-                    <img src="assets/images/profile-pic.jpg" alt="Profile Image" class="float-left mr-3 w-25">
-                    <p class="contentText">
-                        The details of my life are quite inconsequential... very well, where do I begin? My father
-                        was a
-                        relentlessly self-improving boulangerie owner from Belgium with low grade narcolepsy and a
-                        penchant
-                        for
-                        buggery. My mother was a fifteen year old French prostitute named Chloe with webbed feet. My
-                        father
-                        would womanize, he would drink. He would make outrageous claims like he invented the
-                        question
-                        mark.
-                        Sometimes he would accuse chestnuts of being lazy. The sort of general malaise that only the
-                        genius
-                        possess and the insane lament. My childhood was typical. Summers in Rangoon, luge lessons.
-                        In
-                        the
-                        spring
-                        we'd make meat helmets. When I was insolent I was placed in a burlap bag and beaten with
-                        reeds -
-                        pretty
-                        standard really.
-                    </p>
-                    <p class="contentText">
-                        Wait a minute, I think I may have lapsed into an old Austin Powers movie quote. The details
-                        of my life are much less exciting. I was born and raised in IL. About two years ago I moved out
-                        to
-                        Arizona to be closer to family. In addition to working full time and starting this bootcamp, I
-                        also just
-                        got a new puppy a couple weeks ago. His name is Beau and he's a ten week old yellow lab. Before
-                        this I
-                        managed to finally keep a plant alive for more than a week so I like my odds on raising a puppy.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12" id="footer">
-                <p class="text-center align-text-bottom pt-4 mb-0">
-                    Copyright &copy; 2019
-                </p>
-            </div>
-        </div>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
