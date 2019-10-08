@@ -84,7 +84,7 @@ h1 {
     text-align: center;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 600;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 .portfolio > h5{
@@ -141,7 +141,7 @@ h1 {
 
  .overlay p{
      color: white;
-     font-size: 12px;
+     font-size: 18px;
      position: absolute;
      top: 20%;
      left: 50%;
