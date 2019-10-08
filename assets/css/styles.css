@@ -1,3 +1,7 @@
+body{
+    color: #7A7A7A;
+}
+
 #mainNav, .nav-link{
     color: white;
 }
@@ -47,6 +51,31 @@ h1 {
      padding-right: 5px;
  }
 
+ #about{
+    background: #0f0f0f;
+ }
+
+ #about p{
+     line-height: 2.25;
+     margin-bottom: 0 !important;
+     /* font-size: 14px; */
+ }
+
+ #about i{
+     width: 16px;
+     height: 16px;
+     /* margin-right: 10px; */
+     text-align: center;
+ }
+
+ .portfolio{
+    background: rgb(238, 233, 233);
+}
+
+.portfolio > h2{
+    color: black;
+}
+ 
  .card-body{
     opacity: 1;
     display: block;
@@ -107,11 +136,6 @@ h1 {
      overflow: hidden;
      width: 100%;
  }
-
-
-.portfolio{
-    background: gainsboro;
-}
 
 #footer{
     background-color: #666666;
