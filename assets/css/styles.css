@@ -219,3 +219,18 @@ h1 {
 .fa-chevron-circle-up:hover{
     color:black;
 }
+
+.bg-primary{
+    background: lightgreen !important;
+}
+
+
+@media (max-width: 576px){
+    h1{
+        font-size: 48px;
+    }
+
+    h5{
+        font-size: 20px;
+    }
+}
