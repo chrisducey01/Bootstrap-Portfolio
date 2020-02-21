@@ -1,9 +1,10 @@
-const portfolio_offset = $("#portfolio").offset().top;
 const resume_offset = $("#resume").offset().top;
 const about_offset = $("#about").offset().top;
 const header_offset = $("#header").offset().top;
 const window_height = $(window).height();
+const portfolio_offset = $("#portfolio").offset().top;
 const portfolio_height = $("#portfolio").height();
+const portfolio_bottom = portfolio_offset + portfolio_height;
 
 $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
@@ -42,7 +43,7 @@ $(document).ready(function () {
 
             // If portfolio height is shorter than the window height, it'll never hit the top of the window
             // So set it to the active link when it is at the bottom of the window
-            if ((portfolio_height < window_height) && (scroll >= (resume_offset + (window_height - (portfolio_height + 80))))) {
+            if ((portfolio_height < window_height) && (scroll >= (portfolio_bottom - window_height -  40))) {
                 $("#portfolio-link").addClass("active-link");
             } else {
                 $("#resume-link").addClass("active-link");

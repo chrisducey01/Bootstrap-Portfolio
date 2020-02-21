@@ -115,9 +115,9 @@ h1 {
     position: absolute;
     top: 40px;
     left: 0px;
+    background-color: transparent;
     background: #0f0f0f;
     color: white;
-    opacity: 0.6;
     padding: 20px;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
