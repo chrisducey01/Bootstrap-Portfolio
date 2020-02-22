@@ -132,10 +132,6 @@ h1 {
     transition: ease-out 0.4s;  
  }
 
- #res-download-btn:hover{
-    padding-right: 80px;
- }
-
  #resume > * {
     font-family: 'Noto Sans', sans-serif;
  }
@@ -308,4 +304,10 @@ h1 {
         font-size: 20px;
     }
 
+}
+
+@media screen and (min-width:992px){
+    #res-download-btn:hover{
+        padding-right: 80px;
+     }    
 }
